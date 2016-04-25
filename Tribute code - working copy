@@ -1,0 +1,43 @@
+<!---Add gray box to encompass everything--->
+<!--Need font-family and font-size for h-elements--->
+<style>
+  body 
+  .box {
+  background-color: #d3d3d3;
+        border-width: 5px;
+    text-align: center;
+  }
+  h1 {font-family: Cambria;
+  font-size: 50px;}
+  h2 {font-family: Calibri;
+  font-size: 25px;}
+  .thin-white-border {
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;}
+    .medium-image {width: 850px;
+  height: 750px;}
+  .white-box {
+    background-color: white;
+  width: 850px;
+  }
+  .injected-text {
+    margin-bottom: -10px;
+    text-align: center;}
+</style>
+
+<div class="box">
+<!--- Using h1 for Title and h2 for subtitle. center the text. Italics for the h2 element--->
+<h1 class="text injected-text"> Mitchell Paige</h1>
+  <h2 class="injected-text"><i>A Real American Hero</i></h2>
+<!--- Add img and center it with a border--->
+  <div> 
+    <center>
+    <h5><img Class="medium-image thin-white-border" src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Paige_M.jpg"><h3>White box text</h3></h5>
+      </center>
+   
+<!---Statement of accomplishment use <p> --->
+    
+    <!--- <ul> for the list --->
+  </div>
+</div>
